@@ -1,4 +1,4 @@
-package com.exmaple.com.aswell
+package com.exmaple.com.processor
 
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)
