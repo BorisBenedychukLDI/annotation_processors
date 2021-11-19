@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_host_999ll"
+    app:startDestination="@id/fragment1999ll">
+
+    <fragment
+        android:id="@+id/fragment1999ll"
+        android:name="com.exmaple.com.myapplication.Fragment1999ll"
+        android:label="Fragment1999ll" >
+        <action
+            android:id="@+id/action_fragment1999ll_to_fragment2999ll"
+            app:destination="@id/fragment2999ll" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2999ll"
+        android:name="com.exmaple.com.myapplication.Fragment2999ll"
+        android:label="Fragment2999ll" />
+</navigation>
