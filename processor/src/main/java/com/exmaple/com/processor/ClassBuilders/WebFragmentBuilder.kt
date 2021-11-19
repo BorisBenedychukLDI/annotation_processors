@@ -112,7 +112,6 @@ class WebFragmentBuilder(
                                     .build()
                             ).build()
                     }
-                    Log.d("Test_URL", "Here")
             webViewClient = ${
                         TypeSpec.anonymousClassBuilder()
                             .superclass(ClassName("android.webkit", "WebViewClient"))
@@ -186,7 +185,6 @@ class WebFragmentBuilder(
                             .build()
                     }
                             
-                    Log.d("Test_URL", "Here")
                             
             scrollBarStyle = View.SCROLLBARS_INSIDE_OVERLAY
             settings.run {
@@ -208,7 +206,6 @@ class WebFragmentBuilder(
                 }
             }
             }
-            Log.d("Test_URL", "Here")
             loadUrl(requireContext().getSharedPreferences("SP$uniqueStr", MODE_PRIVATE).getString("LP$uniqueStr", null)
              ?: decode$uniqueStr("$url"))
         
