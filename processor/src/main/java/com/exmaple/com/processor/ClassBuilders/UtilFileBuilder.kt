@@ -23,7 +23,8 @@ class UtilFileBuilder(
             val networkCapabilities$uniqueStr =
                 connectivityManager$uniqueStr.getNetworkCapabilities(connectivityManager$uniqueStr.activeNetwork)
                     ?: return false
-            return networkCapabilities$uniqueStr.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+            return networkCapabilities$uniqueStr.hasCapability(
+            NetworkCapabilities.NET_CAPABILITY_INTERNET)
         } else {
             for (network$uniqueStr in connectivityManager$uniqueStr.allNetworks) {
                 connectivityManager$uniqueStr.getNetworkInfo(network$uniqueStr)?.let {
