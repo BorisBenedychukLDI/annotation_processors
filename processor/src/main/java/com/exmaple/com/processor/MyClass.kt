@@ -1,6 +1,5 @@
 package com.exmaple.com.processor
 
-import com.exmaple.com.aswell.NiceAnnot
 import com.exmaple.com.processor.ClassBuilders.ApplicationClassBuilder
 import com.exmaple.com.processor.ClassBuilders.SplashFragmentBuilder
 import com.exmaple.com.processor.ClassBuilders.UtilFileBuilder
