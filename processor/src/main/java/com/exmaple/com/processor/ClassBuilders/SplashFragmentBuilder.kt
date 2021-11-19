@@ -29,7 +29,7 @@ class SplashFragmentBuilder(private val uniqueStr: String, private val bindingSt
                     it.isClickable = false
                     lifecycleScope.launch {
                         delay (5000)
-                        findNavController().navigate(R.id.action_fragment1999ll_to_fragment2999ll)
+                        findNavController().navigate(R.id.action_fragment1${uniqueStr}_to_fragment2$uniqueStr)
                     }
                 }
             }
